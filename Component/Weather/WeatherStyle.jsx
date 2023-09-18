@@ -13,6 +13,6 @@ export const s = StyleSheet.create({
   workspace: {
     height: 450,
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "space-around",
   },
 });

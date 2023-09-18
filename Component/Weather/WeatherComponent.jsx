@@ -64,7 +64,11 @@ const WeatherComponent = () => {
               setInput={setInput}
               unit={convert.unit}
             />
-            <ChangeButton changeSuhuC={changeSuhuC} changeSuhuF={changeSuhuF} />
+            <ChangeButton
+              changeSuhuC={changeSuhuC}
+              changeSuhuF={changeSuhuF}
+              convert={convert}
+            />
           </View>
         </SafeAreaView>
       </SafeAreaProvider>

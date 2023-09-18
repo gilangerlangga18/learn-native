@@ -6,18 +6,21 @@ export const s = StyleSheet.create({
     justifyContent: "center",
     marginTop: 20,
     marginBottom: 20,
+    height: 70,
   },
   input: {
     backgroundColor: "white",
-    height: 50,
+    height: 70,
     paddingLeft: 25,
-    borderRadius: 20,
+    borderRadius: 35,
     fontSize: 20,
+    color: "black",
   },
   unit: {
     position: "absolute",
     alignSelf: "flex-end",
     paddingRight: 25,
     fontSize: 25,
+    color: "black",
   },
 });
